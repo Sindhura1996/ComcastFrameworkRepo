@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=======>PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-09T09:45:28Z" name="Default suite" finished-at="2025-05-09T09:45:44Z" duration-ms="15353">
+    <groups>
+    </groups>
+    <test started-at="2025-05-09T09:45:28Z" name="Default test" finished-at="2025-05-09T09:45:44Z" duration-ms="15353">
+      <class name="com.comcast.crm.vtigerapplicationtest.PriceBook_Test">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:28Z" name="configBS" finished-at="2025-05-09T09:45:28Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:28Z" name="configBC" finished-at="2025-05-09T09:45:30Z" duration-ms="1405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:30Z" name="configBM" finished-at="2025-05-09T09:45:31Z" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createAndSeachPriceBook_Test()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:31Z" name="createAndSeachPriceBook_Test" finished-at="2025-05-09T09:45:42Z" duration-ms="11773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======>PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAndSeachPriceBook_Test -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:42Z" name="configAM" finished-at="2025-05-09T09:45:44Z" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:44Z" name="configAC" finished-at="2025-05-09T09:45:44Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.vtigerapplicationtest.PriceBook_Test@7a1a14a4]" started-at="2025-05-09T09:45:44Z" name="configAS" finished-at="2025-05-09T09:45:44Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.vtigerapplicationtest.PriceBook_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
