@@ -1,23 +1,15 @@
 package com.comcast.crm.vtigerapplicationtest;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 import com.comcast.crm.generic.baseclassutility.BaseClass;
-import com.comcast.crm.generic.fileutility.ExcelUtility;
-import com.comcast.crm.generic.fileutility.FileUtility;
-import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.UtilityClasssObject;
-import com.comcast.crm.generic.webdriverutility.WebdriverUtility;
 import com.comcast.crm.objectrepositoryutility.CreateNewProductPage;
 import com.comcast.crm.objectrepositoryutility.CreateNewVendorsPage;
 import com.comcast.crm.objectrepositoryutility.HomePage;
-import com.comcast.crm.objectrepositoryutility.LoginPage;
 import com.comcast.crm.objectrepositoryutility.ProductInfoPage;
 import com.comcast.crm.objectrepositoryutility.ProductPage;
 import com.comcast.crm.objectrepositoryutility.VendorsInfoPage;
@@ -30,6 +22,7 @@ import com.comcast.crm.objectrepositoryutility.VendorsPage;
  * TestScript 2 : createProductWithVendors_Test
  * 
  */
+//@Listeners(com.comcast.crm.listenerutility.ListenerImplimentationClass.class)
 public class Product_Test extends BaseClass {
 
 	@Test (groups = "Smoke")
